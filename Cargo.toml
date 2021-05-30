@@ -1,0 +1,14 @@
+[package]
+name = "snake"
+version = "0.1.0"
+authors = ["Dang Alexandre <alexandre.dang@centralesupelec.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "1.5.5"
+rand = "0.7.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
